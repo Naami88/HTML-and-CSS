@@ -1,0 +1,35 @@
+p{
+	border: 1px solid;
+	background-color: lightgray;
+	padding-top:2px;
+}
+
+h1{	padding: 100px 100px 100px 100px;
+	color: bule;
+	font-family:Croissant One;
+	background-color: lightgreen;
+	padding:2px:
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:LightYellow;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: Lightgray;
+}
