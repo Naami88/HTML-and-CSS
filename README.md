@@ -1,2 +1,2 @@
-# HTML-and-CSS
-HTML and CSS Practice (include Lectures Activities) 
+# HTML-,-CSS-and-JavaScript
+HTML , CSS and JavaScript Practice (include Lectures Activities) 
