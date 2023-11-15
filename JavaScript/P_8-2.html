@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Cal</title>
+
+        <script>
+            function calculateSum1() {
+
+                var num1 = parseInt(document.getElementById('number1').value);
+                var num2 = parseInt(document.getElementById('number2').value);
+                var Nsum = num1 + num2  ;
+                document.getElementById('sum').value = Nsum;
+            }
+
+            function calculateSum2() {
+
+                var num1 = parseInt(document.getElementById('number1').value);
+                var num2 = parseInt(document.getElementById('number2').value);
+                var Nsum = num1 - num2  ;
+                document.getElementById('sum').value = Nsum;
+            }
+
+            function calculateSum3() {
+
+                var num1 = parseInt(document.getElementById('number1').value);
+                var num2 = parseInt(document.getElementById('number2').value);
+                var Nsum = num1 * num2  ;
+                document.getElementById('sum').value = Nsum;
+            }
+
+            function calculateSum4() {
+
+                var num1 = parseInt(document.getElementById('number1').value);
+                var num2 = parseInt(document.getElementById('number2').value);
+                var Nsum = num1 / num2  ;
+                document.getElementById('sum').value = Nsum;
+            }
+
+
+            function calculateSum5() {
+
+                var num1 = parseInt(document.getElementById('number1').value);
+                var num2 = parseInt(document.getElementById('number2').value);
+                var Nsum = num1 % num2  ;
+                document.getElementById('sum').value = Nsum;
+                }
+
+        </script>
+
+    </head>
+    <body>
+        <form>
+
+        <h1>Add Three Numbers</h1>
+
+            <label>Numbers 1:</label>
+            <input type="number" name="numbers" id="number1" placeholder="Enter number1" required />
+            <br><br>
+
+            <label>Numbers 2:</label>
+            <input type="number" name="numbers" id="number2" placeholder="Enter number2" required />
+            <br><br>
+
+            <input type="button" name="Addition" value="Addition" onclick="calculateSum1()" />
+           
+            <input type="button" name="Substraction" value="Substraction" onclick="calculateSum2()" />
+           
+            <input type="button" name="Multiplication" value="Multiplication" onclick="calculateSum3()" />
+            
+            <input type="button" name="Division" value="Division" onclick="calculateSum4()" />
+
+            <input type="button" name="Modulus" value="Modulus" onclick="calculateSum5()" />
+           
+            <br><br>
+            
+            <label>Sum :</label>
+            <input type="number" id="sum" >
+
+        </form>    
+    </body>
+</html>
