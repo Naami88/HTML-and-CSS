@@ -1,4 +1,4 @@
-#2nd semester module
+# 2nd semester module Lecture and Practical Activites
 
 # Front-END
 HTML , CSS and JavaScript Practice (include Lectures Activities) 
